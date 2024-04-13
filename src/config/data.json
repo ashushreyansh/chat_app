@@ -1,0 +1,52 @@
+{
+    "contacts": [
+        {
+            "id": 1,
+            "name": "John Doe",
+            "email": "john@example.com"
+        },
+        {
+            "id": 2,
+            "name": "Jane Smith",
+            "email": "jane@example.com"
+        },
+        {
+            "id": 3,
+            "name": "Alice Johnson",
+            "email": "alice@example.com"
+        }
+    ],
+    "conversations": [
+        {
+            "id": 1,
+            "contactId": 1,
+            "contactName": "John Doe",
+            "lastMessage": "Hello there!",
+            "messages": [
+                {
+                    "id": 1,
+                    "text": "Hello!",
+                    "timestamp": "2024-04-10T12:00:00Z"
+                },
+                {
+                    "id": 2,
+                    "text": "How are you?",
+                    "timestamp": "2024-04-10T12:05:00Z"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "contactId": 2,
+            "contactName": "Jane Smith",
+            "lastMessage": "Hi!",
+            "messages": [
+                {
+                    "id": 1,
+                    "text": "Hi!",
+                    "timestamp": "2024-04-10T12:10:00Z"
+                }
+            ]
+        }
+    ]
+}

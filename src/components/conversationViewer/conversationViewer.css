@@ -1,0 +1,77 @@
+/* ConversationView.css */
+.conversation-view {
+  background: url("../../assets/images/background.png");
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20vh;
+}
+
+.conversation-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.back-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.message-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.message-list {
+  list-style: none;
+  padding: 0;
+  width: 80%;
+}
+
+.message-bubble {
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  max-width: fit-content;
+}
+
+.message-input-container {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.message-input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.send-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.send-button:hover {
+  background-color: #0056b3;
+}
+
+.notification {
+  margin-top: 10px;
+  color: green;
+}
